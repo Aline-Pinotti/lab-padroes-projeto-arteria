@@ -45,10 +45,12 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.springdoc</groupId>
-			<artifactId>springdoc-openapi-ui</artifactId>
-			<version>${openapi.version}</version>
+			<groupId>org.openapitools</groupId>
+			<artifactId>openapi-generator-maven-plugin</artifactId>
+			<version>7.7.0</version>
+			<scope>provided</scope>
 		</dependency>
+
 
 		<dependency>
 			<groupId>com.h2database</groupId>
