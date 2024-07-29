@@ -1,4 +1,4 @@
-package com.arteria.model;
+package com.arteria.arteria.model;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;

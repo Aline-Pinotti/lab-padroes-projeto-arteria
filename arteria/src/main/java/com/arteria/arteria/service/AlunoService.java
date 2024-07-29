@@ -1,11 +1,11 @@
-package com.arteria.service;
+package com.arteria.arteria.service;
 
-import com.arteria.model.Aluno;
+import com.arteria.arteria.model.Aluno;
 
 public interface AlunoService {
-    Iterable<Cliente> buscarTodos();
+    Iterable<Aluno> buscarTodos();
 
-    Cliente buscarPorId(Long id);
+    Aluno buscarPorId(Long id);
 
     void inserir(Aluno aluno);
 
